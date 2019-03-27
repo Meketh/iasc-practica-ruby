@@ -45,3 +45,4 @@ bower.json
 .idea
 
 blob.bin
+.DS_Store

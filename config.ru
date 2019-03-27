@@ -17,7 +17,11 @@ get '/io_bound' do
 end
 
 get '/cpu_bound' do
-  {result: fib(34)}.to_json
+  n = 0
+  while n != 50_000_000 do
+    
+    n+= 1
+  end
 end
 
 run Sinatra::Application
